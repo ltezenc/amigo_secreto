@@ -160,3 +160,28 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/*animacion*/
+.animacion-sorteo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+    animation: shake 0.2s infinite alternate;
+}
+
+.resultado-final {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4CAF50;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes shake {
+    from { transform: translateX(-5px); }
+    to { transform: translateX(5px); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
+}
