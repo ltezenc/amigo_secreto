@@ -10,9 +10,6 @@ Este proyecto es una aplicación interactiva para sortear amigos de manera diná
 - ✅ Interfaz limpia y moderna.
 - ✅ Reinicio del juego con un solo botón.
 
-## 📸 Vista Previa
-(Agrega aquí capturas de pantalla o GIFs del funcionamiento)
-
 ## 🔧 Tecnologías Utilizadas
 - HTML5
 - CSS3
